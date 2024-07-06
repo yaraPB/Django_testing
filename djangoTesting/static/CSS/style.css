@@ -8,19 +8,19 @@ body{
     font-family: Ubuntu, sans-serif;
     min-height: 100vh;
     display: grid;
-    place-content: center;
     font-size: 2.5rem;
     background-color: #333;
     color: aliceblue;
 }
 
 h1, p{
-    text-align: center;
+    padding: 1rem;
+    background-color: dodgerblue;
 }
 
 nav{
     padding: 1rem;
-    background-color: dodgerblue;
+    background-color: forestgreen;
     color: aliceblue;
     font-size: 1.5rem;
     top: 0;

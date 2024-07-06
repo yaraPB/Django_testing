@@ -5,5 +5,15 @@
 {% endblock %}
 
 {% block content %}
+<section>
     <h1>Posts List</h1>
+    <!-- This is a loop -->
+    {% for post in posts %}
+        <article class="post">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.date }}</p>
+            <p>{{ post.body }}</p>
+        </article>
+    {% endfor %}
+</section>
 {% endblock %}
