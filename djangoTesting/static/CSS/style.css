@@ -29,13 +29,13 @@ nav{
     top: 0;
     width: 100vw;
     position: fixed;
-    
 }
 
 main{
     flex-grow: 1;
     display: grid;
-    place-content: center;
+    place-content: start;
+    margin-top: 4rem;
 }
 
 a{
@@ -47,4 +47,35 @@ a{
     display: block;
     width: 100%;
     max-width: 800px;
+}
+
+button{
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: .5rem;
+    padding: 1rem;
+    color: aliceblue;
+    background-color: rgb(45, 149, 115);
+}
+
+button:hover{
+    background-color: rgb(62, 218, 166);
+    cursor: pointer;
+}
+
+*::selection{
+    background-color: rgb(45, 149, 115);
+}
+
+/* How to mark the errors for the user */
+
+.errorlist {
+    color: #F00;
+    margin-left: 2rem;
+}
+
+.errorlist li::marker {
+    content: '🚨 ';
 }
