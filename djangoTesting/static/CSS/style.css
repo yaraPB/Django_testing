@@ -35,7 +35,7 @@ main{
     flex-grow: 1;
     display: grid;
     place-content: start;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 a{
@@ -78,4 +78,15 @@ button:hover{
 
 .errorlist li::marker {
     content: '🚨 ';
+}
+
+.logout{
+    display: inline-block;
+}
+
+.logout-button{
+    padding: 1rem;
+    background-color: rgb(210, 106, 140);
+    border-radius: .5rem;
+    border: none;
 }
