@@ -18,9 +18,15 @@
 
     <nav>
 
-        <a href="/">🏡 </a>|
-        <a href="/about">👩 </a>|
-        <a href="/posts">📰 </a>
+        <a href="/">
+            <span role="img" aria-label="Home">🏡</span>
+        </a>|
+        <a href="/about"> 
+            <span role="img" aria-label="Person portrait">👩</span>
+        </a>|
+        <a href="{% url 'posts:list' %}">
+            <span role="img" aria-label="Journal">📰</span>
+        </a>
 
     </nav>
 

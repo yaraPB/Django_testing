@@ -8,19 +8,22 @@ body{
     font-family: Ubuntu, sans-serif;
     min-height: 100vh;
     display: grid;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     background-color: #333;
     color: aliceblue;
 }
 
 h1, p{
     padding: 1rem;
-    background-color: dodgerblue;
+}
+
+p{
+    background-color: #555;
 }
 
 nav{
     padding: 1rem;
-    background-color: forestgreen;
+    background-color: rgb(45, 149, 115);
     color: aliceblue;
     font-size: 1.5rem;
     top: 0;
@@ -36,5 +39,12 @@ main{
 }
 
 a{
-text-decoration: none;
+    text-decoration: none;
+    color: rgb(45, 149, 115);
+}
+
+.banner{
+    display: block;
+    width: 100%;
+    max-width: 800px;
 }
